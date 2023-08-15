@@ -42,7 +42,7 @@ class Twitter:
         timestamp with the timstamp of the other two tweets and then selects the one with the minimum value. This
         process is repeated until we have maximum of 10 tweets.
         :param user_id:
-        :return:
+        :return: List of tweet ids
         """
         min_heap = []
         result = []
